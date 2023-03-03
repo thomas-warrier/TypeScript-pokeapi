@@ -1,0 +1,18 @@
+{
+  "name": "typescript-tp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc index.ts",
+    "start": "npm run tsc && node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.14.5"
+  },
+  "dependencies": {
+    "typescript": "^4.9.5"
+  }
+}
